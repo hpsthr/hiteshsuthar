@@ -1,0 +1,147 @@
+.slide {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .slide .div {
+    background-color: #ffffff;
+    height: 11277px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .slide .overlap-group {
+    background-color: #c2e5ff9e;
+    border-radius: 33px;
+    height: 244px;
+    left: 164px;
+    position: absolute;
+    top: 132px;
+    width: 1595px;
+  }
+  
+  .slide .group {
+    height: 139px;
+    left: 82px;
+    position: absolute;
+    top: 48px;
+    width: 169px;
+  }
+  
+  .slide .text-wrapper {
+    color: #000000;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .slide .result-only-fitness {
+    color: #000000;
+    font-family: "Averta CY-Semibold", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 59px;
+  }
+  
+  .slide .group-2 {
+    height: 99px;
+    left: 346px;
+    position: absolute;
+    top: 48px;
+    width: 74px;
+  }
+  
+  .slide .div-wrapper {
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 59px;
+    width: 74px;
+  }
+  
+  .slide .text-wrapper-2 {
+    color: #000000;
+    font-family: "Averta CY-Semibold", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .slide .group-3 {
+    height: 139px;
+    left: 518px;
+    position: absolute;
+    top: 48px;
+    width: 861px;
+  }
+  
+  .slide .text-wrapper-3 {
+    color: #000000;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 57px;
+    width: 857px;
+  }
+  
+  .slide .text-wrapper-4 {
+    color: #000000;
+    font-family: "Averta CY-Semibold", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 164px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 445px;
+  }
+  
+  .slide .text-wrapper-5 {
+    color: #000000;
+    font-family: "Averta CY-Semibold", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 164px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6356px;
+  }
+  
+  .slide .results-only-fitness {
+    height: 5741px;
+    left: 164px;
+    object-fit: cover;
+    position: absolute;
+    top: 534px;
+    width: 1595px;
+  }
+  
+  .slide .resultmb {
+    height: 4742px;
+    left: 164px;
+    object-fit: cover;
+    position: absolute;
+    top: 6480px;
+    width: 646px;
+  }

@@ -19,12 +19,12 @@ export default function Home() {
           </div>
           <div className={classes["overlap-group-wrapper"]}>
             <div className={classes["div-wrapper"]}>
-              <div className={classes.div}>Q&amp;A Interface</div>
+              <div className={classes.div}>Results only fitness</div>
             </div>
           </div>
           <div className={classes.group2}>
             <div className={classes["div-wrapper"]}>
-              <div className={classes.div}>Gwal</div>
+              <div className={classes.div}>Medical questionnaire</div>
             </div>
           </div>
         </div>
