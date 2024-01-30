@@ -104,7 +104,7 @@ export default function Flexpay() {
         <p className={styles["adding-element-that"]}>Adding Element that Gain User’s Attention &amp; Trust</p>
         <p className={styles["text-wrapper-32"]}>Has Unique Differentiation than Competitor’s website</p>
         <p className={styles["text-wrapper-33"]}>Information has to be understandable in few sentence</p>
-        <Image width={2885} height={14914} className={styles["final-design"]} alt="Final design" src="/img/final-design.png" />
+        <Image width={2885} height={14914} className={styles["final-design"]} alt="Final design" src="/img/website.png" />
         <Image width={1920} height={1080} className={styles["group-4"]} alt="Group" src="/img/group-1000004932.png" />
         <Image width={1920} height={1080} className={styles["group-5"]} alt="Group" src="/img/group-1000004934.png" />
         <Image width={1920} height={1080} className={styles["group-6"]} alt="Group" src="/img/group-1000004941.png" />
