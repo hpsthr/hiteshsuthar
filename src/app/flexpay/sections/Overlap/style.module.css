@@ -1,0 +1,110 @@
+.overlap {
+  border-radius: 21px;
+  height: 192px;
+  left: 164px;
+  position: absolute;
+  top: 154px;
+  width: 1457px;
+}
+
+.overlap .text {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 796px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 42px;
+}
+
+.overlap .frame {
+  align-items: flex-start;
+  background-color: #c2e5ff9e;
+  border-radius: 21px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  padding: 26px 74px;
+  position: absolute;
+  top: 0;
+  width: 1457px;
+}
+
+.overlap .group {
+  height: 99px;
+  position: relative;
+  width: 132px;
+}
+
+.overlap .text-wrapper {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.overlap .div {
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 59px;
+}
+
+.overlap .group-2 {
+  height: 99px;
+  position: relative;
+  width: 74px;
+}
+
+.overlap .div-wrapper {
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 59px;
+  width: 74px;
+}
+
+.overlap .text-wrapper-2 {
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.overlap .group-3 {
+  height: 140px;
+  position: relative;
+  width: 874px;
+}
+
+.overlap .designing-new {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58px;
+  width: 857px;
+}

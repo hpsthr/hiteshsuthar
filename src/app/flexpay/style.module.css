@@ -1,0 +1,538 @@
+
+
+
+.slide {
+  background-color: #fafffd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide .div-2 {
+  background-color: #fafffd;
+  height: 21016px;
+  position: relative;
+  width: 1920px;
+}
+
+.slide .text-wrapper-5 {
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 208px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 485px;
+}
+
+.slide .text-wrapper-6 {
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  left: 216px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 709px;
+}
+
+.slide .text-wrapper-7 {
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  left: 215px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 7215px;
+}
+
+.slide .in-this-project-i {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 208px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 555px;
+}
+
+.slide .looking-for-online {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 216px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 770px;
+}
+
+.slide .p {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 216px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 841px;
+}
+
+.slide .text-wrapper-8 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 219px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 925px;
+}
+
+.slide .text-wrapper-9 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 219px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3899px;
+}
+
+.slide .text-wrapper-10 {
+  color: #000000;
+  font-family: "Averta CY-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 219px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3958px;
+}
+
+.slide .text-wrapper-11 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 219px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 966px;
+}
+
+.slide .text-wrapper-12 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 219px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1010px;
+}
+
+.slide .text-wrapper-13 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 219px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1098px;
+}
+
+.slide .rectangle {
+  background-color: #fbd819;
+  border-radius: 35px;
+  height: 7515px;
+  left: 164px;
+  position: absolute;
+  top: 486px;
+  width: 14px;
+}
+
+.slide .text-wrapper-14 {
+  color: #000000;
+  font-family: "Averta CY-SemiboldItalic", Helvetica;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  left: 238px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1219px;
+}
+
+.slide .text-wrapper-15 {
+  color: #000000;
+  font-family: "Averta CY-SemiboldItalic", Helvetica;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  left: 238px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2514px;
+}
+
+.slide .text-wrapper-16 {
+  color: #000000;
+  font-family: "Averta CY-SemiboldItalic", Helvetica;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  left: 1053px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1230px;
+}
+
+.slide .text-wrapper-17 {
+  color: #000000;
+  font-family: "Averta CY-SemiboldItalic", Helvetica;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  left: 1053px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2518px;
+}
+
+.slide .sometimes-when-you {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 269px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 7318px;
+  width: 1219px;
+}
+
+.slide .text-wrapper-18 {
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 252px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 7266px;
+}
+
+.slide .text-wrapper-19 {
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 252px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 7676px;
+}
+
+.slide .text-wrapper-20 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 269px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 7486px;
+  width: 1245px;
+}
+
+.slide .element-what-is-a-quick {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 276px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 7724px;
+}
+
+.slide .text-wrapper-21 {
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  left: 223px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8073px;
+}
+
+.slide .text-wrapper-22 {
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  left: 223px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8446px;
+}
+
+.slide .text-wrapper-23 {
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  left: 223px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8796px;
+}
+
+.slide .text-wrapper-24 {
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  left: 223px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10454px;
+}
+
+.slide .text-wrapper-25 {
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  left: 155px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 12042px;
+}
+
+.slide .text-wrapper-26 {
+  color: #000000;
+  font-family: "Averta CY-RegularItalic", Helvetica;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  left: 403px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8087px;
+}
+
+.slide .text-wrapper-27 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 276px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8148px;
+}
+
+.slide .text-wrapper-28 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 276px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8328px;
+}
+
+.slide .text-wrapper-29 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 276px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8238px;
+}
+
+.slide .compotator-s {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 276px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8193px;
+}
+
+.slide .text-wrapper-30 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 276px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8283px;
+}
+
+.slide .text-wrapper-31 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 276px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8522px;
+}
+
+.slide .adding-element-that {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 276px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8566px;
+}
+
+.slide .text-wrapper-32 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 276px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8610px;
+}
+
+.slide .text-wrapper-33 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 276px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8654px;
+}
+
+.slide .final-design {
+  height: 8663px;
+  left: 123px;
+  object-fit: cover;
+  position: absolute;
+  top: 12101px;
+  width: 1675px;
+}
+
+.slide .group-4 {
+  height: 1159px;
+  left: 261px;
+  object-fit: cover;
+  position: absolute;
+  top: 1299px;
+  width: 674px;
+}
+
+.slide .group-5 {
+  height: 1092px;
+  left: 1053px;
+  object-fit: cover;
+  position: absolute;
+  top: 1299px;
+  width: 462px;
+}
+
+.slide .group-6 {
+  height: 1140px;
+  left: 1053px;
+  object-fit: cover;
+  position: absolute;
+  top: 2590px;
+  width: 815px;
+}
+
+.slide .group-7 {
+  height: 1161px;
+  left: 261px;
+  object-fit: cover;
+  position: absolute;
+  top: 2569px;
+  width: 753px;
+}
+
+.slide .group-8 {
+  height: 1557px;
+  left: 234px;
+  object-fit: cover;
+  position: absolute;
+  top: 5606px;
+  width: 1667px;
+}
+
+.slide .group-9 {
+  height: 1518px;
+  left: 258px;
+  object-fit: cover;
+  position: absolute;
+  top: 8885px;
+  width: 1403px;
+}
+
+.slide .group-10 {
+  height: 1389px;
+  left: 276px;
+  object-fit: cover;
+  position: absolute;
+  top: 10543px;
+  width: 685px;
+}

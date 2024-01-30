@@ -1,3 +1,19 @@
+
+@font-face {
+  font-family:Averta CY-Bold ;
+  src: url(../../public/font/Averta-Cyrillic-Bold.otf);
+}
+
+
+@font-face {
+  font-family:Averta CY-Semibold ;
+  src: url(../../public/font/Averta-Cyrillic-SemiBold.otf);
+} 
+
+@font-face {
+  font-family:Averta CY-Regular;
+  src: url(../../public/font/Averta-Cyrillic-Regular.otf);
+}  
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
