@@ -77,15 +77,87 @@
   top: 1050px;
   width: 1402px;
 }
-
+ .img1 {
+  height: 391px;
+  left: 925px;
+  position: relative;
+  top: -19px;
+  width: 509px;
+}
+.img2 {
+      height: 439px;
+      left: 1028px;
+      position: relative;
+      top: -19px;
+      width: 317px;
+}
+.img3 {
+  height: 354px;
+  left: 1027px;
+  position: relative;
+  top: 18px;
+  width: 266px;
+}
 .desktop .div-wrapper {
-  background-color: #ffffff;
+  background-color: #E1E4FF;
+  border-radius: 23px;
+  height: 372px;
+  position: relative;
+  width: 1400px;
+}
+.desktop .div-wrapper2 {
+  background-color: #F8E2C8;
   border-radius: 23px;
   height: 372px;
   position: relative;
   width: 1400px;
 }
 
+.desktop .text-wrapper-6 {
+  color: #000000;
+  font-family: "Averta CY-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 253px;
+  letter-spacing: 0;
+  line-height: normal;
+  position:absolute;
+  top: 2465px;
+}
+
+.desktop .text-wrapper-7 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 253px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2526px;
+}
+.contact {
+  position:relative;
+  background-color: white;
+}
+.desktop .text-wrapper-8 {
+  color: #000000;
+  font-family: "Averta CY-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 253px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2573px;
+}
+.desktop .div-wrapper3 {
+  background-color: #BFD8ED;
+  border-radius: 23px;
+  height: 372px;
+  position: relative;
+  width: 1400px;
+}
 .desktop .div {
   color: #000000;
   font-family: "Averta CY-Bold", Helvetica;
