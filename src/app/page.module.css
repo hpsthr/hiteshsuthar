@@ -11,7 +11,12 @@
   height: 2409px;
   width: 1920px;
 }
-
+.group {
+  position : relative;
+  height: 372px;
+  
+  width: 1402px;
+}
 .desktop .overlap {
   height: 2409px;
   position: relative;

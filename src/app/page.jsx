@@ -14,12 +14,14 @@ export default function Home() {
           <div className={classes["text-wrapper"]}>Work</div>
           <div className={classes.group}>
             <div className={classes["div-wrapper"]}>
+            
               <a href="./flexpay" className={classes.div}>Flex pay</a>
+              
             </div>
           </div>
           <div className={classes["overlap-group-wrapper"]}>
             <div className={classes["div-wrapper"]}>
-              <div className={classes.div}>Results only fitness</div>
+              <a href="./resultonly" className={classes.div}>Results only fitness</a>
             </div>
           </div>
           <div className={classes.group2}>
