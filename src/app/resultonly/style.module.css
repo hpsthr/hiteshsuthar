@@ -145,3 +145,7 @@
     top: 6480px;
     width: 646px;
   }
+
+  @media screen and (max-width: 480px) {
+    
+  }

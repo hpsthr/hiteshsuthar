@@ -1,0 +1,365 @@
+
+
+
+.title {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    width:60vw;
+    height: 15vh;
+    background-color: #CCE9FD;
+    border-radius : 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+
+
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    
+    padding-left:5vw;
+}
+.titles {
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 18px;
+}
+.info {
+    font-family: "Averta CY-Semibold", Helvetica;
+    font-size: 24px;
+}
+.infosmall {
+    width:35vw;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 18px;
+}
+.stage1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sbox1 {
+    width:100vw;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s1box1 {
+    width:100vw;
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: translateY(-2px) ;
+  
+    
+    
+  }
+.imgbtn , .stbtn {
+    margin: 1vh 0;
+    padding:0 2vw;
+    height:30px;
+    background-color: #015495;
+    font-family: "Averta CY-Bold", Helvetica;
+    color:white;
+    border-style:none;
+    border-radius:10px;
+    cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 13px 0 rgba(0,0,0,0.19);
+}
+
+.s1box2 {
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.i1box2 {
+    width:60vw;
+    padding:0 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.ibox1 {
+    width:60vw;
+    padding:0 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.i1box1 {
+    width:60vw;
+    padding:0 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.ibox1 p {
+    padding-top: 2vh;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 18px;
+}
+.ibox1 p:last-child {
+    padding-bottom: 2vh;
+    
+}
+.ibox1 p span {
+    
+    font-family: "Averta CY-Bold", Helvetica;
+    
+}
+.i1box1 p {
+    padding-top: 2vh;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 18px;
+}
+.i1box1 p:last-child {
+    padding-bottom: 2vh;
+    
+}
+.i1box1 p span {
+    
+    font-family: "Averta CY-Bold", Helvetica;
+    
+}
+.i1box2 p {
+    padding-top: 2vh;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 18px;
+}
+.i1box2 p:last-child {
+    padding-bottom: 2vh;
+    
+}
+.i1box2 p span {
+    
+    font-family: "Averta CY-Bold", Helvetica;
+    
+}
+
+
+
+.list li span {
+    font-family: "Averta CY-iBold", Helvetica;
+    
+}
+
+.atitle {
+    padding-top: 2vh;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 30px;
+}
+.indx {
+    margin-left: 2vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.indx a {
+    padding-top: 10px;
+    font-family: "Averta CY-Bold", Helvetica;
+    font-size: 30px;
+    color:#307DDD
+}
+.sbox2 {
+    width:60vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.timg {
+    position: relative;
+    right: 1vw;
+}
+.frm {
+    height:40vh;
+    width: auto !important;
+}
+.endbox {
+    height:30vh; }
+
+.pimg{
+    padding: 5vh 0 ;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+    object-fit: cover;
+}
+.fimage img{ 
+    display:flex;
+    
+    
+}
+.fimage {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.pimgs {
+    position: relative;
+    width:auto !important;
+    height:70vh;
+    object-fit: fill;   
+    
+}
+
+
+.pimgsm {
+    margin: 0 1vw;
+    position: relative;
+    width:25vw;
+    height:auto;
+    object-fit: fill;   
+    
+}
+.figfrm{
+    width:60vw;
+    height:85vh;
+}
+.figfrmm{
+    width:25vw;
+    height:65vh;
+}
+
+.phonebox {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.iframe {
+    width:60vw;
+    height:80vh;}
+
+.pbox { height:2vh;}
+.dbox { height:5vh;}
+
+.line {
+    width:10px;
+    height:373px;
+    border-radius: 5px;
+    background-color: #307DDD;
+
+}
+.redbox {
+    position: absolute;
+    left: 59vw;
+    height: 40vh;
+    width: 50vw;
+    background-color: #C2D0FF;
+}
+
+.line2 {
+    position: absolute;
+    top: 152vh;
+    left: 18vw;
+    width: 10px;
+    height: 123vh;
+    border-radius: 5px;
+    background-color: #A8FAFF;
+}
+
+
+.sbox3 {
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sbox4 {
+    width:100vw;
+    display: flex;
+    background-color: #C2D0FF;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sbox7 {
+    width:60vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.abimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.fnimgs {
+    position: relative;
+    height:auto !important;
+   width:60vw;
+    object-fit: fill;   
+    border: 1.5px solid black ;
+}
+.fnimgsm {
+    position: relative;
+    height:auto !important;
+   width:25vw;
+    object-fit: fill;   
+    border: 1.5px solid black ;
+}
+.abimage {
+    position: relative;
+    width:60vw;
+    height:auto;
+    object-fit: fill; 
+   
+}
+    
+@media screen and (max-width: 480px) {
+    .ibox1 ,.i1box1, .i1box2, .ibox2 {
+        width:92vw;
+        padding:0 0;
+    }
+    .title {
+        height:66vh;}
+    .box {
+        width:92vw;
+        height: 40vh;
+    }
+    .timg {
+        display: none;
+    }
+    .line {display:none}
+    .indx { margin:18px}
+}

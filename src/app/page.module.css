@@ -1,33 +1,31 @@
 .desktop {
   background-color: #ffffff;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
-.desktop .overlap-wrapper {
-  background-color: #ffffff;
-  height: 2409px;
-  width: 1920px;
-}
-.group {
+
+.group, .group1, .group2 {
   position : relative;
-  height: 372px;
-  
+  padding:40px 0 0;
+  height:400px;
   width: 1402px;
 }
-.desktop .overlap {
-  height: 2409px;
-  position: relative;
-}
+
 
 .desktop .overlap-group {
-  height: 2409px;
   left: 0;
-  position: absolute;
+  position: relative;
   top: 0;
-  width: 1920px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 
 .desktop .imgr {
@@ -38,13 +36,32 @@
   width: 1626px;
 }
 
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 1402px;
+  height: 83vh;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
 .desktop .rectangle {
-  background-color: #a2bcff;
-  height: 1559px;
+  background-color: #FFC04B;
+  
   left: 0;
-  position: absolute;
-  top: 850px;
-  width: 1920px;
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;
+  width:100vw;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .desktop .ellipse {
@@ -63,54 +80,109 @@
   font-family: "Averta CY-Bold", Helvetica;
   font-size: 56.6px;
   font-weight: 700;
-  left: 255px;
+  padding:60px 0;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  top: 906px;
+  
+}
+.desktop .text-wrapper1-2 {
+  border-radius:20px;
+  border: 3px solid #000;
+  box-shadow: 0 0 20px 0 #32250f;
+  background-color: #fff;
+  padding: 10px 20px;
+  color: #000000;
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 46px;
+  font-weight: 500;
+  letter-spacing: 0;
+  border-radius: 19px;
+  line-height: normal;
+  transition-duration: 300ms;
+  
 }
 
-.desktop .group {
-  height: 372px;
-  left: 255px;
-  position: absolute;
-  top: 1050px;
-  width: 1402px;
+.desktop .text-wrapper1-2:hover {
+  box-shadow: 0 0 0 0 #bf913a;
 }
- .img1 {
-  height: 391px;
-  left: 925px;
+.titlewrap {
   position: relative;
-  top: -19px;
-  width: 509px;
+  display: flex;
+  right: 354px;
+  width: 701px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+ .img1 {
+  height: 396px;
+  object-fit: cover;
+  position: absolute;
+  width: 500px;
+  
 }
 .img2 {
       height: 439px;
       left: 1028px;
       position: relative;
-      top: -19px;
+      height: 439px;
+    
+    top: 5px;
+  
       width: 317px;
 }
 .img3 {
-  height: 354px;
+  height: 364px;
   left: 1027px;
   position: relative;
-  top: 18px;
+  top: 31px;
   width: 266px;
 }
-.desktop .div-wrapper {
-  background-color: #E1E4FF;
-  border-radius: 23px;
-  height: 372px;
-  position: relative;
-  width: 1400px;
+
+.imgbox {
+  position:absolute;
+  left: 892px;
+    width: 500px;
+    height: 395px;
+  overflow:hidden;
 }
-.desktop .div-wrapper2 {
-  background-color: #F8E2C8;
-  border-radius: 23px;
-  height: 372px;
+.read{
+  position: absolute;
+  border-radius: 0 0 8px 8px;
+  height: 57px;
+  background-color: black !important;
+  width: 250px;
+  left: 574px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.read p{
+  font-family: "Averta CY-Semibold", Helvetica;
+  font-size: 24px; 
+  color:white;
+}
+.desktop .div-wrapper, .div-wrapper2, .div-wrapper3 {
   position: relative;
-  width: 1400px;
+  border-radius: 23px;
+  border: 3px solid #000;
+  box-shadow: 0 0 57.1px 0 #bf913a;
+  background-color: #fff;
+  display: flex;
+  height: 401px;
+  width:1400px;
+  justify-content: flex-start;
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+  padding: 0 14px 0 48px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
 }
 
 .desktop .text-wrapper-6 {
@@ -118,11 +190,11 @@
   font-family: "Averta CY-Bold", Helvetica;
   font-size: 36px;
   font-weight: 700;
-  left: 253px;
+  padding: 10px 0;
   letter-spacing: 0;
   line-height: normal;
-  position:absolute;
-  top: 2465px;
+  position:relative;
+  
 }
 
 .desktop .text-wrapper-7 {
@@ -130,11 +202,11 @@
   font-family: "Averta CY-Regular", Helvetica;
   font-size: 24px;
   font-weight: 400;
-  left: 253px;
+  padding: 5px 0;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  top: 2526px;
+  position: relative;
+  
 }
 .contact {
   position:relative;
@@ -145,56 +217,104 @@
   font-family: "Averta CY-Regular", Helvetica;
   font-size: 24px;
   font-weight: 400;
-  left: 253px;
+  padding: 5px 0;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  top: 2573px;
-}
-.desktop .div-wrapper3 {
-  background-color: #BFD8ED;
-  border-radius: 23px;
-  height: 372px;
   position: relative;
-  width: 1400px;
+  
 }
+
+
+
+
+
+
+
+.image {
+  position: absolute;
+  height: 92vh;
+  width: auto;
+  left: 15vw;
+    top: 2px;
+    overflow:hidden;;
+    
+}
+
+
+.image .guy {
+ height:auto;
+  /* left: 807px; */
+  object-fit: cover;
+  position: relative;
+  top: 22px;
+ width:65vw;
+}
+
 .desktop .div {
   color: #000000;
   font-family: "Averta CY-Bold", Helvetica;
   font-size: 56.6px;
   font-weight: 700;
-  left: 48px;
+  padding: 30px 0 0 0;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  top: 41px;
+  position: relative;
+  right: 3px;
+  
 }
 
-.desktop .overlap-group-wrapper {
-  height: 372px;
-  left: 255px;
+.casestudy{
   position: absolute;
-  top: 1495px;
+  font-family: "Averta CY-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  top: 332px;
+    
+  
+}
+.uxdetail{
+position:relative;
+ padding: 15px 0;
+  
+
+}
+.uxdetail p {
+  width:35vw;
+}
+.uxdetail p:first-child {
+  font-family: "Averta CY-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.uxdetail p:last-child {
+  font-family: "Averta CY-Regular", Helvetica;
+  padding:10px 0 0 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer{
+  position: relative;
+  
+  
+  padding:40px 0;
   width: 1402px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
 }
-
-.desktop .group2 {
-  height: 372px;
-  left: 255px;
-  position: absolute;
-  top: 1940px;
-  width: 1402px;
-}
-
 .desktop .frame {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
   gap: 29px;
-  left: 255px;
-  position: absolute;
-  top: 180px;
-}
+  
+  position: relative;}
+  
 
 .desktop .text-wrapper2 {
   color: #000000;
@@ -219,7 +339,7 @@
   width: fit-content;
 }
 
-.desktop .an-creative {
+ .ancreative {
   color: #000000;
   font-family: "Averta CY-Regular", Helvetica;
   font-size: 20px;
@@ -227,12 +347,12 @@
   letter-spacing: 0;
   line-height: normal;
   position: relative;
-  width: 394px;
+  width: 30vw;
 }
 
 
 
-.label .an-creative {
+/* .an-creative {
   color: #000000;
   font-family: "Averta CY-Regular", Helvetica;
   font-size: 20px;
@@ -242,5 +362,380 @@
   line-height: normal;
   
   
-  width: 394px;
+  width: 45px;
+} */
+
+.Card {
+  padding: 0 0 60px 0;
+}
+@media screen and (max-width: 480px) {
+  .desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .Card {
+    padding: 0 0 30px 0;
+  }
+  
+  .group, .group1, .group2 {
+    position : relative;
+    padding:40px 0 0;
+    height:400px;
+    width: 1402px;
+  }
+  
+  
+  .desktop .overlap-group {
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .desktop .imgr {
+    height: 1118px;
+    left: 464px;
+    position: absolute;
+    top: 0;
+    width: 1626px;
+  }
+  
+  .hero {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .desktop .rectangle {
+    background-color: #FFC04B;
+    
+    left: 0;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  
+  
+  .desktop .text-wrapper {
+    color: #000000;
+    font-family: "Averta CY-Bold", Helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 8px 0;
+    letter-spacing: 0;
+    line-height: normal;
+    
+  }
+  .desktop .text-wrapper1-2 {
+    border-radius:2px;
+    border: 1.5px solid #000;
+    box-shadow: 0 0 20px 0 #32250f;
+    background-color: #fff;
+    padding: 4px 5px;
+    color: #000000;
+    font-family: "Averta CY-Semibold", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    border-radius: 19px;
+    line-height: normal;
+    transition-duration: 300ms;
+    
+  }
+  
+  .desktop .text-wrapper1-2:hover {
+    box-shadow: 0 0 0 0 #bf913a;
+  }
+
+  .titlewrap {
+    position: relative;
+    display: flex;
+    right: 0px;
+    width: 90vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+   .img1 {
+    height: 262px;
+    object-fit: cover;
+    position: absolute;
+    width: 342px;
+    border-radius: 10px;
+    opacity: 0.5;
+    
+  }
+  .img2 {
+        height: 439px;
+        left: 1028px;
+        position: relative;
+        height: 439px;
+      
+      top: 5px;
+    
+        width: 317px;
+  }
+  .img3 {
+    height: 364px;
+    left: 1027px;
+    position: relative;
+    top: 31px;
+    width: 266px;
+  }
+  
+  .imgbox {
+    position: absolute;
+    left: 7px;
+    width: 496px;
+    height: 395px;
+    overflow: hidden;
+    top: 133px;
+  }
+  .read{
+    position: absolute;
+    border-radius: 0 0 8px 8px;
+    height: 57px;
+    background-color: black !important;
+    width: 250px;
+    left: 574px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .read p{
+    font-family: "Averta CY-Semibold", Helvetica;
+    font-size: 24px; 
+    color:white;
+  }
+  .desktop .div-wrapper, .div-wrapper2, .div-wrapper3 {
+    position: relative;
+    border-radius: 15px;
+    border: 1.5px solid #000;
+    box-shadow: 0 0 57.1px 0 #bf913a;
+    background-color: #fff;
+    display: flex;
+    height: 47vh;
+    width: 90vw;
+    justify-content: flex-start;
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    padding: 0 20px 0 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+  }
+  
+  .desktop .text-wrapper-6 {
+    color: #000000;
+    font-family: "Averta CY-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 10px 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position:relative;
+    
+  }
+  
+  .desktop .text-wrapper-7 {
+    color: #000000;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 5px 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    
+  }
+  .contact {
+    position:relative;
+    background-color: white;
+  }
+  .desktop .text-wrapper-8 {
+    color: #000000;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 5px 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  .image {
+    position: absolute;
+      height:90vh;
+      width:auto !important;
+      left: -200px;
+      top: 2px;
+      overflow:hidden;;
+      
+  }
+  
+  .image .guy {
+    height: 1016px;
+    /* left: 807px; */
+    object-fit: cover;
+    position: relative;
+    top: 22px;
+    width:auto;
+  }
+  
+  .desktop .div {
+    color: #000000;
+    font-family: "Averta CY-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px 0 0 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    right: 3px;
+    
+  }
+  
+  .casestudy{
+    position: absolute;
+    font-family: "Averta CY-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    top: 335px;
+    padding: 10px;
+    background-color: #FFC04B;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #383838;
+      
+    
+  }
+  .uxdetail{
+  position:relative;
+   padding: 15px 0;
+    
+  
+  }
+  .uxdetail p:first-child {
+    font-family: "Averta CY-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .uxdetail p:last-child {
+    font-family: "Averta CY-Regular", Helvetica;
+    padding:10px 0 0 0;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .footer{
+    position: relative;
+    
+    
+    padding:40px 0;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+  }
+  .desktop .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 29px;
+    z-index: 1;
+    background-color: #d5d5d57a;
+    backdrop-filter: blur(10px);
+    padding: 24px;
+    position: relative;
+    border-radius: 25px;
+    }
+    
+  
+  .desktop .text-wrapper2 {
+    color: #000000;
+    font-family: "Averta CY-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 70vw;
+  }
+  
+  .desktop .text-wrapper3 {
+    color: #000000;
+    font-family: "Averta CY-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    
+    width: 70vw;
+  }
+  
+  .desktop .an-creative {
+    color: #000000;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 394px;
+  }
+  
+  
+  
+  .label .an-creative {
+    color: #000000;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    
+    letter-spacing: 0;
+    line-height: normal;
+    
+    
+    width:70vw;
+  }
 }

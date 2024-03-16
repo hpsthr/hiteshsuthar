@@ -3,8 +3,6 @@
   font-family:Averta CY-Bold ;
   src: url(../../public/font/Averta-Cyrillic-Bold.otf);
 }
-
-
 @font-face {
   font-family:Averta CY-Semibold ;
   src: url(../../public/font/Averta-Cyrillic-SemiBold.otf);
@@ -13,6 +11,14 @@
 @font-face {
   font-family:Averta CY-Regular;
   src: url(../../public/font/Averta-Cyrillic-Regular.otf);
+}  
+@font-face {
+  font-family:Averta CY-iRegular;
+  src: url(../../public/font/Averta-Cyrillic-Regular-Italic.otf);
+}  
+@font-face {
+  font-family:Averta CY-ibold;
+  src: url(../../public/font/Averta-Cyrillic-Bold-Italic.otf);
 }  
 :root {
   --max-width: 1100px;
@@ -72,12 +78,8 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
+    
 }
 
 a {

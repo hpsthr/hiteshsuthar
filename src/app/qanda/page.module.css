@@ -1,0 +1,357 @@
+.title {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    width:60vw;
+    height: 15vh;
+    background-color: #CCE9FD;
+    border-radius : 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+
+
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    
+    padding-left:5vw;
+}
+.titles {
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 18px;
+}
+.info {
+    font-family: "Averta CY-Semibold", Helvetica;
+    font-size: 24px;
+}
+.infosmall {
+    width:35vw;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 18px;
+}
+.stage1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sbox1 {
+    width:100vw;
+    
+    background-color:#C3D0FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s1box1 {
+    width:100vw;
+    
+    background-color:#FFDF70;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s1box2 {
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.i1box2 {
+    width:60vw;
+    padding:0 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.ibox1 {
+    width:60vw;
+    padding:0 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.i1box1 {
+    width:60vw;
+    padding:0 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.ibox1 p {
+    padding-top: 1.5vh;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 18px;
+}
+.ibox1 p:last-child {
+    padding-bottom: 2vh;
+    
+}
+.ibox1 p span {
+    
+    font-family: "Averta CY-Bold", Helvetica;
+    
+}
+.i1box1 p {
+    padding-top: 1.5vh;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 18px;
+}
+.i1box1 p:last-child {
+    padding-bottom: 2vh;
+    
+}
+.i1box1 p span {
+    
+    font-family: "Averta CY-Bold", Helvetica;
+    
+}
+.i1box2 p {
+    padding-top: 1.5vh;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 18px;
+}
+.i1box2 p:last-child {
+    padding-bottom: 2vh;
+    
+}
+.i1box2 p span {
+    
+    font-family: "Averta CY-Bold", Helvetica;
+    
+}
+
+
+
+.list li span {
+    font-family: "Averta CY-iBold", Helvetica;
+    
+}
+
+.atitle {
+    padding-top: 2vh;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 26px;
+}
+.indx {
+    margin-left: 2vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.indx a {
+    font-family: "Averta CY-Bold", Helvetica;
+    font-size: 26px;
+    color:#015495
+}
+.sbox2 {
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.timg {
+    position: relative;
+    right: 1vw;
+}
+.endbox {
+    height:30vh; }
+
+.pimg{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    object-fit: cover;
+}
+.fimage img{ 
+    padding-top:2vh;
+    
+}
+.videogroup {
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.stateap {
+    width:65vw;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.stateap img {
+    width:23vw;
+    height:auto;
+  
+
+}
+.stateap div {
+    
+    padding: 2vh 2vw;
+}
+
+.fimage {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pimgs {
+    position: relative;
+    width:60vw;
+    height:auto;
+    object-fit: fill;   
+    
+}
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: translateY(-2px) ;
+  
+    
+    
+  }
+.imgbtn , .stbtn {
+    margin: 1vh 0;
+    padding:0 2vw;
+    height:30px;
+    background-color: #015495;
+    font-family: "Averta CY-Bold", Helvetica;
+    color:white;
+    border-style:none;
+    border-radius:10px;
+    cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 13px 0 rgba(0,0,0,0.19);
+}
+
+.figfrm{
+    width:65vw;
+    height:85vh;
+}
+.figfrmm{
+    width:25vw;
+    height:70vh;
+}
+
+.pimgsm {
+    margin: 0 1vw;
+    position: relative;
+    width:25vw;
+    height:auto;
+    object-fit: fill;   
+    
+}
+
+
+.iframe {
+    width:60vw;
+    height:80vh;}
+
+.pbox { height:2vh;}
+
+.line {
+    width:10px;
+    height:300px;
+    border-radius: 5px;
+    background-color: #015495;
+
+}
+.line2 {
+    position: absolute;
+    top: 152vh;
+    left: 18vw;
+    width: 10px;
+    height: 123vh;
+    border-radius: 5px;
+    background-color: #A8FAFF;
+}
+
+
+.sbox3 {
+    width:100vw;
+    background-color:#C3D0FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sbox4 {
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sbox7 {
+    width:60vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.abimg {
+    display: flex;
+    flex-direction: row;
+
+
+}
+    
+.abimage {
+    position: relative;
+    width:30vw;
+    height:auto;
+    object-fit: fill; 
+    padding: 10px;
+}
+    
+@media screen and (max-width: 480px) {
+    .ibox1 ,.i1box1, .i1box2, .ibox2 {
+        width:92vw;
+        padding:0 0;
+    }
+    .title {
+        height:66vh;}
+    .box {
+        width:92vw;
+        height: 40vh;
+    }
+    .timg {
+        display: none;
+    }
+    .line {display:none}
+    .indx { margin:18px}
+    .stateap {width:95vw; flex-direction: column;}
+    
+    .stateap img {width:91vw;}
+}
