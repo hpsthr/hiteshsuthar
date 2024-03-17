@@ -15,6 +15,9 @@ export default function Qanda() {
     
     return (
         <main>
+            <div className={classes.grids}>
+      <Image width={1920} height={2710} className={classes.gridimg} alt="Imgr" src="/img/grids.png" />
+         </div>
             <div className={classes.backbtn}>
             <a onMouseEnter={() => shov(!hov)} onMouseLeave={() => shov(!hov)} href="./"> <span>
                     <motion.svg animate={{x: hov ? -20 : 0}} viewBox="0 0 63 45" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +31,7 @@ export default function Qanda() {
           <div className={classes.stage1}>
             <div style={{ width : "60vw" , flexDirection: "row", alignItems: "flex-start"}} className={classes.sbox1}>
                 <div  className={classes.ibox1}>
-                <h1 className={classes.atitle}>Why Redesign & Problem with current website </h1>  
+                <h1 className={classes.atitle}>Revamping the Website: Exploring the Need for Redesign and Current Site Challenges </h1>  
                 <p>The previous landing page was not designed with the long-term vision of the company in mind. It used a prebuilt template to construct the site, resulting in less thoughtful design considerations</p>         
                 <p>The current website lacks a clear information flow, hindering users from making informed decisions about the product. Consequently, this may result in missed opportunities for the company if website visitors fail to convert into product users</p>
                 <p>With ultimate goal to convert maximum amount of visitor into products user, here project is began </p>

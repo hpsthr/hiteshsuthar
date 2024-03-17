@@ -243,7 +243,7 @@
   position: absolute;
   height: 92vh;
   width: auto;
-  left: 15vw;
+  left: 10vw;
     top: 2px;
     overflow:hidden;;
     
@@ -251,12 +251,12 @@
 
 
 .image .guy {
- height:auto;
-  /* left: 807px; */
+  height: auto;
+  
   object-fit: cover;
   position: relative;
-  top: 22px;
- width:65vw;
+  top: -3px;
+  width: 70vw;
 }
 
 .desktop .div {
@@ -650,6 +650,12 @@ position:relative;
       
     
   }
+  .ancreative {
+    
+    font-size: 16px;
+    
+    width: 90vw;
+  }
   .uxdetail{
   position:relative;
    padding: 15px 0;
@@ -686,7 +692,7 @@ position:relative;
     align-items: flex-start;
     display: inline-flex;
     flex-direction: column;
-    gap: 29px;
+    gap: 14px;
     z-index: 1;
     background-color: #d5d5d57a;
     backdrop-filter: blur(10px);
@@ -731,7 +737,9 @@ position:relative;
     width: 394px;
   }
   
-  
+  .uxdetail p {
+    width:85vw;
+  }
   
   .label .an-creative {
     color: #000000;

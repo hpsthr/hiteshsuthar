@@ -23,6 +23,9 @@ export default function Qanda() {
     const [hov , shov] = useState(false)
     return (
         <main>
+            <div className={classes.grids}>
+      <Image width={1920} height={2710} className={classes.gridimg} alt="Imgr" src="/img/grids.png" />
+         </div>
             <div className={classes.backbtn}>
                 <a onMouseEnter={() => shov(!hov)} onMouseLeave={() => shov(!hov)} href="./"> <span>
                     <motion.svg animate={{x: hov ? -20 : 0}}   viewBox="0 0 63 45" fill="none" xmlns="http://www.w3.org/2000/svg">

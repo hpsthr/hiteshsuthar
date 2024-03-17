@@ -21,8 +21,8 @@ export default function Home() {
         
         <div className={classes.hero}>
         <div className={classes.frame}>
-          <div className={classes["text-wrapper2"]}>Hello I&apos;m Hitesh Suthar</div>
-          <div className={classes["text-wrapper3"]}>A Product Designer</div>
+          <div className={classes["text-wrapper2"]}>Hitesh Suthar</div>
+          <div className={classes["text-wrapper3"]}>A Product Designer & Strategist</div>
           <div className={classes.label}>
           <p className={classes.ancreative}>
           A generalist who has in-depth knowledge of different fields. As a product designer, it&apos;s a more valuable skill to have because it helps in understanding problems at a deeper level and providing creative solutions to them.
@@ -33,15 +33,16 @@ export default function Home() {
           
           
           </p>
+          
+          </div>
           <div>
-          <a href="http://dl.dropboxusercontent.com/scl/fi/103318o4xsktgkflv5d5i/Hiteshkumar_suthar_Resume.pdf?rlkey=l2oy8jc6z7ohxgai408ozywj0&dl=0" onMouseEnter={() => shov(!hov)} onMouseLeave={() => shov(!hov)} style={{top:"5vh", cursor: "pointer"}} className={classes["text-wrapper3"]}>Download Resume&nbsp;
+          <a href="http://dl.dropboxusercontent.com/scl/fi/103318o4xsktgkflv5d5i/Hiteshkumar_suthar_Resume.pdf?rlkey=l2oy8jc6z7ohxgai408ozywj0&dl=0" onMouseEnter={() => shov(!hov)} onMouseLeave={() => shov(!hov)} style={{cursor: "pointer"}} className={classes["text-wrapper3"]}>Download Resume&nbsp;
           <motion.svg animate={{y: hov ? 5 : -5}} width="25" height="11" viewBox="0 0 256 110" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M30.1867 0.146484L128 49.6267L225.813 0.146484L256 30.3331L128 110L0 30.3331L30.1867 0.146484Z" fill="black"/>
           </motion.svg>
 
            </a>
            </div>
-          </div>
         </div>
           <div className={classes.image}>
           <Image width={2680} height={1856} className={classes.guy} alt="Imgr" src="/img/guy.png" />
