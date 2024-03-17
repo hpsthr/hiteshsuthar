@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import classes from "./page.module.css";
 import { motion } from "framer-motion";
+import Skipbt from "./skipbt";
 
 import {useState } from "react";
 
@@ -17,8 +18,18 @@ export default function Qanda() {
     const [stt1, sstt1] = useState(false)
     const [prot, sprot] = useState(false)
     const [prot2, sprot2] = useState(false)
+    const [prot3, sprot3] = useState(false)
+    const [prot4, sprot4] = useState(false)
+    const [hov , shov] = useState(false)
     return (
         <main>
+            <div className={classes.backbtn}>
+                <a onMouseEnter={() => shov(!hov)} onMouseLeave={() => shov(!hov)} href="./"> <span>
+                    <motion.svg animate={{x: hov ? -20 : 0}}   viewBox="0 0 63 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.8 26.252L25.2 37.652C26 38.452 26.3833 39.3853 26.35 40.452C26.3167 41.5187 25.9333 42.452 25.2 43.252C24.4 44.052 23.45 44.4687 22.35 44.502C21.25 44.5353 20.3 44.152 19.5 43.352L1.2 25.052C0.4 24.252 0 23.3187 0 22.252C0 21.1853 0.4 20.252 1.2 19.452L19.5 1.152C20.3 0.352 21.25 -0.0313333 22.35 0.002C23.45 0.0353333 24.4 0.452 25.2 1.252C25.9333 2.052 26.3167 2.98533 26.35 4.052C26.3833 5.11867 26 6.052 25.2 6.852L13.8 18.252H58.4C59.5333 18.252 60.4833 18.6353 61.25 19.402C62.0167 20.1687 62.4 21.1187 62.4 22.252C62.4 23.3853 62.0167 24.3353 61.25 25.102C60.4833 25.8687 59.5333 26.252 58.4 26.252H13.8Z" fill="black"/>
+                    </motion.svg>
+                </span> &nbsp;Go Back </a>
+            </div>
             <div className={classes.title}>
                 <div className={classes.box}>
                     <div className={classes.first}>
@@ -126,7 +137,7 @@ export default function Qanda() {
                     <button className={classes.stbtn} onClick={() => sstt(!stt)}> State of button <span  > 
                       <motion.div animate={{rotate:stt ? 225 : 45,  }} className={classes.arrow}></motion.div>  
                     </span></button>
-                    <div style={{overflow:"hidden"}}>
+                    <div style={{overflow:"hidden" , display:"flex"}}>
                     <motion.div style={{ zIndex: -1}} transition={{ ease: "easeOut", duration: 0.4 }} animate={{y:stt ? 6 : -310,height:stt ? "auto" : 0,}}  className={classes.stateap} >
                         
                         <div>
@@ -150,23 +161,24 @@ export default function Qanda() {
                         <button className={classes.stbtn} onClick={() => sprot(!prot)}> Figma Prototype <span  > 
                         <motion.div animate={{rotate:prot ? 225 : 45,  }} className={classes.arrow}></motion.div>  
                         </span></button>
-                        <div style={{overflow:"hidden"}}>
-                        <motion.div style={{ zIndex: -1}} transition={{ ease: "easeOut", duration: 0.4 }} animate={{y:prot ? 6 : -310,height:prot ? "auto" : 0,}}  className={classes.stateap} >
+                        <div style={{overflow:"hidden", display:"flex", flexDirection: "column", alignItems: "center"}}>
+                        <motion.div style={{ zIndex: 1}} transition={{ ease: "easeOut", duration: 0.4 }} animate={{y:prot ? 6 : -310,height:prot ? "auto" : 0,}}  className={classes.stateap} >
                             <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1)"}} className={classes.figfrm} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fya1CXlCbvDUuFbyVzcUKaA%2FOrthovitals%3Fpage-id%3D1428%253A216%26type%3Ddesign%26node-id%3D1428-218%26viewport%3D564%252C2574%252C0.46%26t%3DcXk2stFDRKxKWlk8-1%26scaling%3Dscale-down%26starting-point-node-id%3D1428%253A218%26mode%3Ddesign" allowFullScreen></iframe>
-                           
+                            
                         </motion.div>
+                        <Skipbt condit={prot} section= "#section-7"/>
                         </div>
                     
-                    </div>
-                    <Image width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/it1.png" />
-                    <Image width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/it2.png" />
-                    <Image width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/it3.png" />
-                    <Image width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/it4.png" />
-                    <Image width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/it5.png" />
-                    <Image width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/it6.png" />
-                    <Image width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/it7.png" />
-                    <Image width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/it8.png" />
-                    <Image width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/it9.png" />
+                        </div>
+                    <Image width={1920} loading ="lazy" height={1177} className={classes.pimgs} alt="Imgr" src="/img/it1.png" />
+                    <Image width={1920} loading ="lazy" height={1177} className={classes.pimgs} alt="Imgr" src="/img/it2.png" />
+                    <Image width={1920} loading ="lazy" height={1177} className={classes.pimgs} alt="Imgr" src="/img/it3.png" />
+                    <Image width={1920} loading ="lazy" height={1177} className={classes.pimgs} alt="Imgr" src="/img/it4.png" />
+                    <Image width={1920} loading ="lazy" height={1177} className={classes.pimgs} alt="Imgr" src="/img/it5.png" />
+                    <Image width={1920} loading ="lazy" height={1177} className={classes.pimgs} alt="Imgr" src="/img/it6.png" />
+                    <Image width={1920} loading ="lazy" height={1177} className={classes.pimgs} alt="Imgr" src="/img/it7.png" />
+                    <Image width={1920} loading ="lazy" height={1177} className={classes.pimgs} alt="Imgr" src="/img/it8.png" />
+                    <Image width={1920} loading ="lazy" height={1177} className={classes.pimgs} alt="Imgr" src="/img/it9.png" />
                     </div>
                     :
                     <div style={{display:"flex", flexWrap:"wrap", justifyContent: "center"}}>
@@ -174,11 +186,12 @@ export default function Qanda() {
                         <button className={classes.stbtn} onClick={() => sprot2(!prot2)}> Figma Prototype <span  > 
                         <motion.div animate={{rotate:prot2 ? 225 : 45,  }} className={classes.arrow}></motion.div>  
                         </span></button>
-                        <div style={{overflow:"hidden"}}>
-                        <motion.div style={{ zIndex: -1}} transition={{ ease: "easeOut", duration: 0.4 }} animate={{y:prot2 ? 6 : -310,height:prot2 ? "auto" : 0,}}  className={classes.stateap} >
+                        <div style={{overflow:"hidden" , display:"flex", flexDirection: "column", alignItems: "center"}}>
+                        <motion.div style={{ zIndex: 1}} transition={{ ease: "easeOut", duration: 0.4 }} animate={{y:prot2 ? 6 : -310,height:prot2 ? "auto" : 0,}}  className={classes.stateap} >
                             <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1)"}} className={classes.figfrmm} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fya1CXlCbvDUuFbyVzcUKaA%2FOrthovitals%3Fpage-id%3D1428%253A217%26type%3Ddesign%26node-id%3D1428-6983%26viewport%3D552%252C2985%252C0.58%26t%3DX7ghb1vUIiYmYZIq-1%26scaling%3Dscale-down%26starting-point-node-id%3D1428%253A6983%26mode%3Ddesign" allowFullScreen></iframe>
                             
                         </motion.div>
+                        <Skipbt condit={prot2} section= "#section-7"/>
                         </div>
                     
                     </div> 
@@ -263,7 +276,7 @@ export default function Qanda() {
                         <li style={{fontFamily:"Averta CY-Regular", fontSize: "18px",  padding : "5px 0px 0 20px"}}> Creating Design that resemble more like human interaction.  </li>  
                         <li style={{fontFamily:"Averta CY-Regular" ,fontSize: "18px", padding : "0 0 0 20px" }}> Making Design Accessible for many type of patient.</li>  
                         <li style={{fontFamily:"Averta CY-Regular",fontSize: "18px", padding : "0 0 0 20px" }}>Making effortless interaction between Questions.</li>  
-                        <li style={{fontFamily:"Averta CY-Regular",fontSize: "18px", padding : "0 0 0 20px" }}> . </li>  
+                        
                     </ul>
                     <div className={classes.pbox}></div>
                     <h1 className={classes.atitle}>Ideas.</h1>
@@ -271,8 +284,7 @@ export default function Qanda() {
                         <li style={{fontFamily:"Averta CY-Regular", fontSize: "18px",  padding : "5px 0px 0 20px"}}> Creating Design that resemble more like human interaction or felt like being asked in way.  </li>  
                         <li style={{fontFamily:"Averta CY-Regular" ,fontSize: "18px", padding : "0 0 0 20px" }}> Making Phone Conversation type Questionnaire.</li>  
                         <li style={{fontFamily:"Averta CY-Regular",fontSize: "18px", padding : "0 0 0 20px" }}>Making effortless interaction between Questions to reduce unnecessary clicks and movement. </li>  
-                        <li style={{fontFamily:"Averta CY-Regular",fontSize: "18px", padding : "0 0 0 20px" }}> . </li>  
-                        <li style={{fontFamily:"Averta CY-Regular",fontSize: "18px", padding : "0 0 0 20px" }}> . </li>  
+                         
                     </ul>
                     <div className={classes.pbox}></div>
                     <h1 id="section-8" className={classes.atitle}>Decision for Final Design.</h1>
@@ -285,7 +297,7 @@ export default function Qanda() {
                     <button className={classes.stbtn} onClick={() => sstt1(!stt1)}> State of button <span  > 
                       <motion.div animate={{rotate:stt1 ? 225 : 45,  }} className={classes.arrow}></motion.div>  
                     </span></button>
-                    <div style={{overflow:"hidden"}}>
+                    <div style={{overflow:"hidden", display:"flex"}}>
                     <motion.div style={{  zIndex: -1}} transition={{ ease: "easeOut", duration: 0.4 }} animate={{y:stt1 ? 15 : -310,height:stt1 ? "auto" : 0,}}  className={classes.stateap} >
                         
                         <div>
@@ -311,7 +323,20 @@ export default function Qanda() {
                 <div className={classes.fimage}> 
                 <button className={classes.imgbtn} onClick={() => sweb3(web3 === true ? false : true)}>{web3 === true ? "Show Phone Preview" : "Show website preview"}</button> 
                 {web3 === true ?
-                    <div>
+                    <div style={{display:"flex", flexWrap:"wrap", justifyContent: "center"}}>
+                        <div className={classes.phonebox}> 
+                        <button className={classes.stbtn} onClick={() => sprot3(!prot3)}> Figma Prototype <span  > 
+                        <motion.div animate={{rotate:prot3 ? 225 : 45,  }} className={classes.arrow}></motion.div>  
+                        </span></button>
+                        <div style={{overflow:"hidden", display:"flex", flexDirection: "column", alignItems: "center"}}>
+                        <motion.div style={{ zIndex: 1}} transition={{ ease: "easeOut", duration: 0.4 }} animate={{y:prot3 ? 6 : -310,height:prot3 ? "auto" : 0,}}  className={classes.stateap} >
+                            <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1)"}} className={classes.figfrm} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fya1CXlCbvDUuFbyVzcUKaA%2FMediQuest%3Fpage-id%3D1428%253A216%26type%3Ddesign%26node-id%3D1523-15637%26viewport%3D569%252C667%252C0.08%26t%3DyXw4cJGruW3fatx6-1%26scaling%3Dscale-down%26starting-point-node-id%3D1523%253A15637%26mode%3Ddesign" allowFullScreen></iframe>
+                            
+                        </motion.div>
+                        <Skipbt condit={prot3} section= "#section-9"/>
+                        </div>
+                    
+                        </div>
                     <Image style={{border: " 1.5px solid black"}} width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/2it1.png" />
                     <Image style={{border: " 1.5px solid black"}} width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/2it2.png" />
                     <Image style={{border: " 1.5px solid black"}} width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/2it3.png" />
@@ -320,7 +345,20 @@ export default function Qanda() {
                     <Image style={{border: " 1.5px solid black"}} width={1920} height={1177} className={classes.pimgs} alt="Imgr" src="/img/2it6.png" />
                     </div>
                     : 
-                    <div>
+                    <div style={{display:"flex", flexWrap:"wrap", justifyContent: "center"}}>
+                        <div className={classes.phonebox}> 
+                        <button className={classes.stbtn} onClick={() => sprot4(!prot4)}> Figma Prototype <span  > 
+                        <motion.div animate={{rotate:prot4 ? 225 : 45,  }} className={classes.arrow}></motion.div>  
+                        </span></button>
+                        <div style={{overflow:"hidden" , display:"flex", flexDirection: "column", alignItems: "center"}}>
+                        <motion.div style={{ zIndex: 1}} transition={{ ease: "easeOut", duration: 0.4 }} animate={{y:prot4 ? 6 : -310,height:prot4 ? "auto" : 0,}}  className={classes.stateap} >
+                            <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1)"}} className={classes.figfrmm} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fya1CXlCbvDUuFbyVzcUKaA%2FMediQuest%3Fpage-id%3D1428%253A217%26type%3Ddesign%26node-id%3D1523-10267%26viewport%3D331%252C939%252C0.1%26t%3DiGILzig409JDdq09-1%26scaling%3Dscale-down%26starting-point-node-id%3D1523%253A10267%26mode%3Ddesign" allowFullScreen></iframe>
+                            
+                        </motion.div>
+                        <Skipbt condit={prot4} section= "#section-9"/>
+                        </div>     
+                    
+                    </div> 
                     <Image width={1920} height={1177} className={classes.pimgsm} alt="Imgr" src="/img/2itm1.png" />
                     <Image width={1920} height={1177} className={classes.pimgsm} alt="Imgr" src="/img/2itm2.png" />
                     <Image width={1920} height={1177} className={classes.pimgsm} alt="Imgr" src="/img/2itm3.png" />
@@ -351,7 +389,15 @@ export default function Qanda() {
                 <p>Design is iterative process. Most of the cases it&apos;s not linear, we have to quick to adapt, identify problems and make necessary changes to deliver great user experience. and This is why i have choose to include this case study to show Design is not linear process and one time thing. As product Designer I always wanted to make timeless design, but things are keep changing outside and inside of you. As you grow and learn more, you Found out flow in your pervious work, And try to make Design better with new knowledge and experience. as you grow more experience in design you tend to rely on intuition to identify problem and make designs decision,  Most of time it&apos;s efficient and time saving. but there are times you need to balance things. You can&apos;t 100% reduce bias from any things. So your goal should be solve problem using best of both world and being efficient with time to deliver result.  </p>
                 <p>I Put this case study to show design is not about process but more about Designer&apos;s ability to solve problem effectively with Limited time and resources available to them. </p>
                 </div>
-                <div className={classes.endbox}></div>
+                <div className={classes.endbox}>
+                <div style= {{ position :"relative", top:"10vh", left: "40vw"}} className={classes.backbtn}>
+                <a onMouseEnter={() => shov(!hov)} onMouseLeave={() => shov(!hov)} href="./gwal"> Next Project &nbsp; <span>
+                    <motion.svg whileHover={{x:30}}  animate={{rotate:180, x: hov ? 20 : 0}} viewBox="0 0 63 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.8 26.252L25.2 37.652C26 38.452 26.3833 39.3853 26.35 40.452C26.3167 41.5187 25.9333 42.452 25.2 43.252C24.4 44.052 23.45 44.4687 22.35 44.502C21.25 44.5353 20.3 44.152 19.5 43.352L1.2 25.052C0.4 24.252 0 23.3187 0 22.252C0 21.1853 0.4 20.252 1.2 19.452L19.5 1.152C20.3 0.352 21.25 -0.0313333 22.35 0.002C23.45 0.0353333 24.4 0.452 25.2 1.252C25.9333 2.052 26.3167 2.98533 26.35 4.052C26.3833 5.11867 26 6.052 25.2 6.852L13.8 18.252H58.4C59.5333 18.252 60.4833 18.6353 61.25 19.402C62.0167 20.1687 62.4 21.1187 62.4 22.252C62.4 23.3853 62.0167 24.3353 61.25 25.102C60.4833 25.8687 59.5333 26.252 58.4 26.252H13.8Z" fill="black"/>
+                    </motion.svg>
+                </span></a>
+            </div>
+                </div>
             </div>
           </div>
           

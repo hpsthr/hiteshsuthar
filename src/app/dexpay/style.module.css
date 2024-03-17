@@ -235,7 +235,30 @@
     object-fit: fill;   
     
 }
+.backbtn {
+    position :absolute;
+    display: flex;
+    
+    top: 9vh;
+    left: 5vw;
+}
 
+.backbtn span svg {
+    display: block;
+    height: 2vh;
+    top: 2px;
+    position: relative;
+    width: auto !important;
+}
+.backbtn span {
+   display:block;
+   width:1.5vw;
+}
+.backbtn a {
+    font-family: "Averta CY-Bold", Helvetica;
+    display: flex;
+    flex-direction: row;
+}
 
 .pimgsm {
     margin: 0 1vw;

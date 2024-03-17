@@ -13,7 +13,7 @@ export default function Card(props) {
                 <p>{props.read}</p>
             </div>
                 <div className={classes.imgbox}>
-                <Image width={1920} height={1080} className={classes["img1"]} alt="flex" src={props.img} /> 
+                <Image  width={1920} height={1080} className={classes["img1"]} alt="flex" src={props.img} /> 
                 </div>
               <a className={classes.div}>{props.title}</a>
               <div className={classes.uxdetail}>

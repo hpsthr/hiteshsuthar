@@ -4,15 +4,24 @@ import React from "react";
 import classes from "./style.module.css";
 import {motion} from "framer-motion"
 import {useState} from "react";
+import Skipbt from "../qanda/skipbt";
 
 export default function Qanda() {
     
     const [web, sweb] = useState(true)
     const [stt, sstt] = useState(false)
     const [stt1, sstt1] = useState(false)
+    const [hov , shov] = useState(false)
     
     return (
         <main>
+            <div className={classes.backbtn}>
+            <a onMouseEnter={() => shov(!hov)} onMouseLeave={() => shov(!hov)} href="./"> <span>
+                    <motion.svg animate={{x: hov ? -20 : 0}} viewBox="0 0 63 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.8 26.252L25.2 37.652C26 38.452 26.3833 39.3853 26.35 40.452C26.3167 41.5187 25.9333 42.452 25.2 43.252C24.4 44.052 23.45 44.4687 22.35 44.502C21.25 44.5353 20.3 44.152 19.5 43.352L1.2 25.052C0.4 24.252 0 23.3187 0 22.252C0 21.1853 0.4 20.252 1.2 19.452L19.5 1.152C20.3 0.352 21.25 -0.0313333 22.35 0.002C23.45 0.0353333 24.4 0.452 25.2 1.252C25.9333 2.052 26.3167 2.98533 26.35 4.052C26.3833 5.11867 26 6.052 25.2 6.852L13.8 18.252H58.4C59.5333 18.252 60.4833 18.6353 61.25 19.402C62.0167 20.1687 62.4 21.1187 62.4 22.252C62.4 23.3853 62.0167 24.3353 61.25 25.102C60.4833 25.8687 59.5333 26.252 58.4 26.252H13.8Z" fill="black"/>
+                    </motion.svg>
+                </span>&nbsp;Go Back </a>
+            </div>
             <div className={classes.title}>
                 <div className={classes.box}>
                     <div className={classes.first}>
@@ -61,6 +70,7 @@ export default function Qanda() {
                     <a href="#section-4">Key goals </a>
                     <a href="#section-5">Color and Font </a>
                     <a href="#section-6">Final Design </a>
+                    <a href="#section-7">Conclusion </a>
                    
                 
                 </div>
@@ -107,7 +117,7 @@ export default function Qanda() {
           <div className={classes.s1box1}>
             <div className={classes.i1box1}>
                 <div className={classes.pbox}></div> 
-                    <h1 id="section-7" style={{fontSize:"24px"}} className={classes.atitle}>Final Analysis.</h1>
+                    <h1  style={{fontSize:"24px"}} className={classes.atitle}>Final Analysis.</h1>
                     <p>Here are 2 website we have decided to make in-depth analysis, and speculative guess why it&apos;s made this way with best of my and team ability. here are some parameter.  </p>
                     <ul style={{listStyleType: "circle", listStylePosition: "inside"}}>
                         <li style={{fontFamily:"Averta CY-iRegular", fontSize: "18px",  padding : "15px 0px 0 20px"}}> Why Section is designed this way and what are their out come.  </li>  
@@ -197,10 +207,11 @@ export default function Qanda() {
                         <button  className={classes.stbtn} onClick={() => sstt(!stt)}>Figma Prototype <span  > 
                         <motion.div animate={{rotate:stt ? 225 : 45,  }} className={classes.arrow}></motion.div>  
                         </span></button>
-                        <div style={{overflow:"hidden"}}>
-                        <motion.div style={{ zIndex: -1}} transition={{ ease: "easeOut", duration: 0.4 }} animate={{y:stt ? 6 : -310,height:stt ? "auto" : 0,}}  className={classes.stateap} >
+                        <div style={{overflow:"hidden",display:"flex", flexDirection: "column", alignItems: "center"}}>
+                        <motion.div style={{ zIndex: 1}} transition={{ ease: "easeOut", duration: 0.4 }} animate={{y:stt ? 6 : -310,height:stt ? "auto" : 0,}}  className={classes.stateap} >
                             <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1)"}} className={classes.figfrm} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWhmzTJKWBPs5DJ2D2KiEce%2FFlexPay%3Fpage-id%3D50%253A34%26type%3Ddesign%26node-id%3D1266-557%26viewport%3D1021%252C884%252C0.16%26t%3Dz1lSa1H7XPAzwD1w-1%26scaling%3Dscale-down%26starting-point-node-id%3D1266%253A557%26mode%3Ddesign" allowFullScreen></iframe>
                         </motion.div>
+                        <Skipbt condit={stt} section= "#section-7"/>
                         </div>
                         <div>
                         <Image width={1920} height={10380} className={classes.fnimgs} alt="Imgr" src="/img/dexpay.png" />
@@ -211,10 +222,11 @@ export default function Qanda() {
                         <button className={classes.stbtn} onClick={() => sstt1(!stt1)}> Figma Prototype <span  > 
                         <motion.div animate={{rotate:stt1 ? 225 : 45,  }} className={classes.arrow}></motion.div>  
                         </span></button>
-                        <div style={{overflow:"hidden"}}>
-                        <motion.div style={{ zIndex: -1}} transition={{ ease: "easeOut", duration: 0.4 }} animate={{y:stt1 ? 6 : -310,height:stt1 ? "auto" : 0,}}  className={classes.stateap} >
+                        <div style={{overflow:"hidden", display:"flex", flexDirection: "column", alignItems: "center"}}>
+                        <motion.div style={{ zIndex: 1}} transition={{ ease: "easeOut", duration: 0.4 }} animate={{y:stt1 ? 6 : -310,height:stt1 ? "auto" : 0,}}  className={classes.stateap} >
                             <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1)"}} className={classes.figfrmm} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWhmzTJKWBPs5DJ2D2KiEce%2FDexpay%3Fpage-id%3D1152%253A73%26type%3Ddesign%26node-id%3D1386-150%26viewport%3D-3512%252C-632%252C0.28%26t%3DOc2c4CV4BizwDNrX-1%26scaling%3Dscale-down%26starting-point-node-id%3D1386%253A150%26mode%3Ddesign" allowFullScreen></iframe>
                         </motion.div>
+                        <Skipbt condit={stt1} section= "#section-7"/>
                         </div>
                     <div >
                     <Image width={1920} height={1177} className={classes.fnimgsm} alt="Imgr" src="/img/dexpaym.png" />
@@ -223,13 +235,19 @@ export default function Qanda() {
                     }
                 </div> 
                 <div className={classes.dbox}></div>
-                <h1 id="section-9" className={classes.atitle}>Conclusion and Learning.</h1>
+                <h1 id="section-7" className={classes.atitle}>Conclusion and Learning.</h1>
                 <p>I approached this design with new aesthetics in mind. For that purpose, I learned 3D modeling and rendering in Blender to create interactive and modern 3D graphics. This resulted in a very unique design that stands out among competitors. It&apos;s not just about making things look good; it&apos;s also about effectively communicating the product to site visitors with the goal of providing a unique experience that they won&apos;t easily forget. I always strive to bring new and creative ways to solve problems. For that reason, I never stop learning and applying new techniques to my designs to make them more unique</p>
-                <p>I Put this case study to show design is not about process but more about Designer&apos;s ability to solve problem effectively with Limited time and resources available to them. </p>
+                <p> </p>
                 </div>
 
                 <div className={classes.endbox}>
-                    
+                <div style= {{ position :"relative", top:"10vh", left: "40vw"}} className={classes.backbtn}>
+                <a onMouseEnter={() => shov(!hov)} onMouseLeave={() => shov(!hov)} href="./qanda"> Next Project &nbsp; <span>
+                    <motion.svg whileHover={{x:30}}  animate={{rotate:180, x: hov ? 20 : 0}} viewBox="0 0 63 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.8 26.252L25.2 37.652C26 38.452 26.3833 39.3853 26.35 40.452C26.3167 41.5187 25.9333 42.452 25.2 43.252C24.4 44.052 23.45 44.4687 22.35 44.502C21.25 44.5353 20.3 44.152 19.5 43.352L1.2 25.052C0.4 24.252 0 23.3187 0 22.252C0 21.1853 0.4 20.252 1.2 19.452L19.5 1.152C20.3 0.352 21.25 -0.0313333 22.35 0.002C23.45 0.0353333 24.4 0.452 25.2 1.252C25.9333 2.052 26.3167 2.98533 26.35 4.052C26.3833 5.11867 26 6.052 25.2 6.852L13.8 18.252H58.4C59.5333 18.252 60.4833 18.6353 61.25 19.402C62.0167 20.1687 62.4 21.1187 62.4 22.252C62.4 23.3853 62.0167 24.3353 61.25 25.102C60.4833 25.8687 59.5333 26.252 58.4 26.252H13.8Z" fill="black"/>
+                    </motion.svg>
+                </span></a>
+            </div>
                 </div>
             </div>
           </div>
