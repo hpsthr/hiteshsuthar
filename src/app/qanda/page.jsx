@@ -31,20 +31,7 @@ export default function Qanda() {
                 </span> &nbsp;Go Back </a>
             </div>
             <div className={classes.title}>
-                <div className={classes.box}>
-                    <div className={classes.first}>
-                        <a className={classes.titles}>Project</a>
-                        <a className={classes.info}>MediQuest</a>
-                    </div>
-                    <div className={classes.first}>
-                        <a className={classes.titles}>Year</a>
-                        <a className={classes.info}>2023</a>
-                    </div>
-                    <div className={classes.first}>
-                        <a className={classes.titles}>Brief</a>
-                        <a className={classes.infosmall}>Redesigning Application to increase user interactivity at scale here is a part of application that deal with questionnaire to ask patients before diagnosis </a>
-                    </div>
-                </div>
+                <Image width={1920} height={1080} className={classes.deximg} alt="Imgr" src="/img/medist.png" />
             </div> 
           <div className={classes.stage1}>
             <div className={classes.sbox1}>
@@ -98,7 +85,7 @@ export default function Qanda() {
                 <h1 id="section-3" className={classes.atitle}>Understanding target user</h1>
                 <p style={{fontFamily:"Averta CY-iRegular"}}> Who is our target user.</p>
                 <p>First target demographic comprises individuals residing in the United States who are aged above 30 and are at increased risk of illness.</p>
-                <p>Second target demographic comprises who has suffer any kind of injuries due to unintended occurrences, but due to it&apos;s emergency nature no one asking this question at this time. so i am going to with first target demographic of user. </p>
+                <p>The second target demographic includes individuals who have sustained injuries from unforeseen accidents. However, due to the urgent nature of these situations, the question of product usage might not immediately come to mind. Therefore, I have chosen to focus on the first target demographic of users. </p>
                 <div className={classes.pbox}></div>
                 <h1 id="section-4" className={classes.atitle}>Problem Identification.</h1>
                 <p style={{fontFamily:"Averta CY-iRegular"}}> What is right problem to solve.</p>

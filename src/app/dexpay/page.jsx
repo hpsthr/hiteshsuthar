@@ -23,20 +23,7 @@ export default function Qanda() {
                 </span>&nbsp;Go Back </a>
             </div>
             <div className={classes.title}>
-                <div className={classes.box}>
-                    <div className={classes.first}>
-                        <a className={classes.titles}>Project</a>
-                        <a className={classes.info}>Dexpay</a>
-                    </div>
-                    <div className={classes.first}>
-                        <a className={classes.titles}>Year</a>
-                        <a className={classes.info}>2023</a>
-                    </div>
-                    <div className={classes.first}>
-                        <a className={classes.titles}>Brief</a>
-                        <a className={classes.infosmall}>Redesigning website, for increase engagement, Establish Digital Identity of Brand and  communicate about product efficiently.</a>
-                    </div>
-                </div>
+                <Image width={1920} height={1080} className={classes.deximg} alt="Imgr" src="/img/dexst.png" />
             </div> 
           <div className={classes.stage1}>
             <div style={{ width : "60vw" , flexDirection: "row", alignItems: "flex-start"}} className={classes.sbox1}>

@@ -1,5 +1,5 @@
 .desktop {
-  background-color: #ffffff;
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,13 +48,22 @@
   align-items: center;
 }
 
+.grids{
+  position:fixed;
+  z-index: -99;
+ 
+  top:0;
+  left:0;
+  width:100vw;
+  height:300vh;
+}
 
 .desktop .rectangle {
-  background-color: #FFC04B;
+  
   
   left: 0;
   position: relative;
-  
+  top:-5vh;
   display: flex;
   flex-direction: column;
   width:100vw;
@@ -170,7 +179,7 @@
   position: relative;
   border-radius: 23px;
   border: 3px solid #000;
-  box-shadow: 0 0 57.1px 0 #bf913a;
+  box-shadow: 0 0 57.1px 0 #a5a5a5;
   background-color: #fff;
   display: flex;
   height: 401px;
@@ -295,8 +304,6 @@ position:relative;
 }
 .footer{
   position: relative;
-  
-  
   padding:40px 0;
   width: 1402px;
   display: flex;
@@ -311,7 +318,7 @@ position:relative;
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
-  gap: 29px;
+  gap: 14px;
   
   position: relative;}
   

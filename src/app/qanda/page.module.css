@@ -1,6 +1,6 @@
 .title {
     width: 100vw;
-    height: 40vh;
+    height: 90vh;
     display: flex;
     
     flex-direction: column;
@@ -199,7 +199,10 @@
     top: 9vh;
     left: 5vw;
 }
-
+.deximg {
+    width: 80vw;
+    height: auto !important;
+}
 .backbtn span svg {
     display: block;
     height: 2vh;
