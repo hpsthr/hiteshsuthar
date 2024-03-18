@@ -45,7 +45,7 @@ export default function Home() {
            </div>
         </div>
           <div className={classes.image}>
-          <Image width={2680} height={1856} className={classes.guy} alt="Imgr" src="/img/guy.png" />
+              <Image width={2680} height={1856} className={classes.guy} alt="Imgr" src="/img/guy.png" />
           </div>
           </div>
           <div className={classes.rectangle}> 

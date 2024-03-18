@@ -2,11 +2,33 @@
 import Image from "next/image";
 import React from "react";
 import classes from "./page.module.css";
-import { motion } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
+import { useState, useEffect } from "react";
 
 export default function Card(props) {
+  const [anm , sanm] = useState(true)
+  const variants =  {
+    open : {y:[0, 15, 0]},
+    close: {y:[0]}
+  }
+  
+  useEffect(() => {
+    window.addEventListener('scroll', () => { sanm(false) });
+  }, [])
     return (
-            <div className={classes.Card}>
+            <motion.div 
+            
+            animate={anm ? "open" : "close"}
+            variants={variants}
+            transition={{
+              duration: 1,
+              ease: "easeInOut",
+              
+              repeat: Infinity,
+              
+            }}
+            className={classes.Card}>
+            
                 
             <div className={classes["div-wrapper"]}>
             <div className={classes.read}>
@@ -27,5 +49,5 @@ export default function Card(props) {
                 </span> </motion.a>
               
             </div>
-            </div>
+            </motion.div>
     ); }

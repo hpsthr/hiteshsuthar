@@ -1,17 +1,7 @@
 
 
 
-.title {
-    width: 100vw;
-    height: 90vh;
-    display: flex;
-    
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
 
-}
 .grids{
     position:fixed;
     z-index: -99;
@@ -247,13 +237,33 @@
 .backbtn {
     position :absolute;
     display: flex;
-    
+    z-index: 2;
     top: 9vh;
     left: 5vw;
 }
+
+.imgttl {
+position:relative;
+height:90vh;
+width:auto !important;
+}
+.title {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    position :relative;
+    left:5vw;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
 .deximg {
-    width: 80vw;
+    width: 60vw;
     height: auto !important;
+    position: relative;
+    right: 8vw;
 }
 .backbtn span svg {
     display: block;
