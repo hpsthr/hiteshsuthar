@@ -35,8 +35,8 @@ export default function Qanda() {
             </div>
             <div className={classes.title}>
                  
-                <Image width={1920} height={1080} className={classes.imgttl} alt="Imgr" src="/img/medittl.png" />
-                <Image width={1920} height={1080} className={classes.deximg} alt="Imgr" src="/img/medig.gif" />
+                <Image width={1920} height={1080} priority className={classes.imgttl} alt="Imgr" src="/img/medittl.png" />
+                <Image width={1920} height={1080} priority className={classes.deximg} alt="Imgr" src="/img/medig.gif" />
             </div> 
           <div className={classes.stage1}>
             <div className={classes.sbox1}>

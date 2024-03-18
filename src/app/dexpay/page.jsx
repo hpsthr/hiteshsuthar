@@ -27,8 +27,8 @@ export default function Qanda() {
             </div>
             <div className={classes.title}>
                  
-                <Image width={1920} height={1080} className={classes.imgttl} alt="Imgr" src="/img/dexttl.png" />
-                <Image width={1920} height={1080} className={classes.deximg} alt="Imgr" src="/img/dexg.gif" />
+                <Image width={1920} height={1080} priority className={classes.imgttl} alt="Imgr" src="/img/dexttl.png" />
+                <Image width={1920} height={1080} priority className={classes.deximg} alt="Imgr" src="/img/dexg.gif" />
             </div> 
           <div className={classes.stage1}>
             <div style={{ width : "60vw" , flexDirection: "row", alignItems: "flex-start"}} className={classes.sbox1}>
