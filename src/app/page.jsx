@@ -67,16 +67,16 @@ export default function Home() {
           title = "Dex pay"
           info = "Designing new website for fintech company"
           param = "Ux Research, Analysis, Conclusion, Final Design"
-          link = "./dexpay"
-          img ="/img/flex1.png"
+          link = "./dexmn"
+          img ="/img/dexpaycard.mp4"
           read ="~5 min. Read"
           />
           <Card
           title = "Medi Quest"
           info = "Medical Questions experience for diagnosis patients"
           param = "Research, Analysis, Ideation, Hi-fi Prototype, A/b Testing, User interview, Re-analysis, Re-Ideation, Hifi Prototype 2 "
-          link = "./qanda"
-          img ="/img/med.png"
+          link = "./medimn"
+          img ="/img/Medicard.mp4"
           read = "~7 min. Read"
           />
           <Card

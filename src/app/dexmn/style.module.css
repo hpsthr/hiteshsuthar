@@ -1,0 +1,212 @@
+.videodex {
+    display:flex;
+    flex-direction: row;
+    width:100vw;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.videobx {
+    position :relative;
+    left: 1vw;
+    display: flex;
+    flex-direction: row;
+    width: 52vw;
+    height: 63vh;
+    overflow:hidden;
+    border-radius: 25px;
+    border: 1.5px solid black ;
+}
+
+.videobx video {
+    width:65vw;
+    height:65vh;
+    pointer-events: none !important;
+    object-fit: cover;
+}
+
+.firstGrid {
+    
+    border: 1px solid #222222;
+    width:70vw;
+    height:80vh;
+    display:flex;
+    border-radius: 30px;
+
+}
+.firstGrid div {
+    margin-left: 3.5vw;
+
+}
+.mainTitle {
+    position:absolute;
+    top:16vh;
+    
+    font-family: "Averta CY-Bold", Helvetica;
+    font-size: 45px;
+    width:25vw;
+
+}
+.paragraphT {
+    position:relative;
+    top:35vh;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 20px;
+}
+
+
+
+.gridimg {
+    width:20vw;
+    height:auto;
+}
+
+.img2 {
+    position:relative;
+    top:35vh;
+    width:64vw;
+    height:auto;
+}
+
+.figs {
+    position :absolute;
+    cursor:pointer;
+    font-family: "Averta CY-Regular", Helvetica;
+    font-size: 28px;
+    color:#DDDDDD;
+    text-align: center;
+}
+ .figs::after {
+    background-image: url(../../../public/img/out.png);
+} 
+
+.Mouse{
+    
+    display: block;
+    /* flex-direction: row; */
+    position: absolute;
+    top: 48vh;
+    left:96vw;
+    transition:0.3s ease-in-out;
+    z-index: 199;
+    
+    
+    
+}
+
+.MouseShell{
+    border: 3px solid #222222;
+    position: absolute;
+    width: 33px;
+    height: 55px;
+    border-radius: 25px;
+    
+}
+
+.MouseScroll{
+    background:#222222;
+    width: 5px;
+    height: 12px;
+    position:absolute;
+    top: 9px;
+    left: 12px;
+    border-radius: 2.5px;
+    -webkit-animation: Mouse__mouseWheel--3X3Wk 1.25s infinite linear;
+    animation: Mouse__mouseWheel--3X3Wk 1.25s infinite linear
+}
+
+
+@-webkit-keyframes Mouse__mouseWheel--3X3Wk {
+    0% {
+        -webkit-transform: scaleY(.4) translateY(0);
+        transform: scaleY(.4) translateY(0)
+    }
+
+    20% {
+        -webkit-transform: scaleY(1) translateY(0);
+        transform: scaleY(1) translateY(0)
+    }
+
+    60% {
+        -webkit-transform: scaleY(.4) translateY(12px);
+        transform: scaleY(.4) translateY(12px)
+    }
+
+    to {
+        -webkit-transform: scaleY(.4) translateY(0);
+        transform: scaleY(.4) translateY(0)
+    }
+}
+
+@keyframes Mouse__mouseWheel--3X3Wk {
+    0% {
+        -webkit-transform: scaleY(.4) translateY(0);
+        transform: scaleY(.4) translateY(0)
+    }
+
+    20% {
+        -webkit-transform: scaleY(1) translateY(0);
+        transform: scaleY(1) translateY(0)
+    }
+
+    60% {
+        -webkit-transform: scaleY(.4) translateY(12px);
+        transform: scaleY(.4) translateY(12px)
+    }
+
+    to {
+        -webkit-transform: scaleY(.4) translateY(0);
+        transform: scaleY(.4) translateY(0)
+    }
+}
+.backbtn {
+    position :absolute;
+    display: flex;
+    z-index: 2;
+    top: 5vh;
+    left: 2.7vw;
+}
+.backbtn span svg {
+    display: block;
+    height: 2vh;
+    top: 2px;
+    position: relative;
+    width: auto !important;
+}
+.backbtn span {
+   display:block;
+   width:1.5vw;
+}
+.backbtn a {
+    font-family: "Averta CY-Bold", Helvetica;
+    display: flex;
+    flex-direction: row;
+}
+
+.detail {
+    position :relative;
+    display: flex;
+    z-index: 2;
+    top: -5vh;
+    left: 25vw;
+    width:25vw;
+    height: 3vh;
+}
+.detail span svg {
+    display: block;
+    height: 2vh;
+    top: 2px;
+    position: relative;
+    width: auto !important;
+}
+.detail span {
+   display:block;
+   width:1.5vw;
+}
+.detail a {
+    font-family: "Averta CY-Bold", Helvetica;
+    display: flex;
+    flex-direction: row;
+}

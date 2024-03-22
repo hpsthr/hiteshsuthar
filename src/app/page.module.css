@@ -15,7 +15,13 @@
   height:400px;
   width: 1402px;
 }
-
+.videobx {
+  opacity:0.6;
+  left: 0vw;
+  position:absolute;
+  object-fit: cover;
+  z-index: 0;
+}
 
 .desktop .overlap-group {
   left: 0;
@@ -192,6 +198,7 @@
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-start;
+  overflow: hidden;
 }
 
 .desktop .text-wrapper-6 {

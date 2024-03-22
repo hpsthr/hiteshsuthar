@@ -4,14 +4,20 @@ import React from "react";
 import classes from "./page.module.css";
 import { motion, useScroll } from "framer-motion";
 import { useState, useEffect } from "react";
+import { useContext } from "react";
+
+
+
 
 export default function Card(props) {
   const [anm , sanm] = useState(true)
+
   const variants =  {
     open : {y:[0, 15, 0]},
     close: {y:[0]}
   }
   
+
   useEffect(() => {
     window.addEventListener('scroll', () => { sanm(false) });
   }, [])
@@ -20,23 +26,22 @@ export default function Card(props) {
             
             animate={anm ? "open" : "close"}
             variants={variants}
-            transition={{
-              duration: 1,
-              ease: "easeInOut",
-              
-              repeat: Infinity,
-              
-            }}
+            transition={{duration: 1, ease: "easeInOut", repeat: Infinity,}}
             className={classes.Card}>
             
                 
             <div className={classes["div-wrapper"]}>
+            <div className={classes.videobx}>
+            <video   muted playsInline preload="auto" loop width="1400" height="401" autoPlay >
+            <source src={props.img} type="video/mp4" />
+            </video>
+            </div>
             <div className={classes.read}>
                 <p>{props.read}</p>
             </div>
-                <div className={classes.imgbox}>
-                <Image  width={1920} height={1080} className={classes["img1"]} alt="flex" src={props.img} /> 
-                </div>
+                
+                
+                
               <a className={classes.div}>{props.title}</a>
               <div className={classes.uxdetail}>
                 <p>{props.info}</p>
