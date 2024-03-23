@@ -56,7 +56,7 @@ return (
               </div>
             <div className={classes.videobx}>
             <video   muted playsInline preload="auto" loop width="1920" height="1080" autoPlay >
-            <source src="/img/dexv.mp4" type="video/mp4" />
+            <source src="http://dl.dropboxusercontent.com/scl/fi/dj08q47j898i7bhnit494/dexv.mp4?rlkey=hlz0nh3ene2521t66pijwt8lo&dl=0" type="video/mp4" />
       1
             </video>
             </div>
