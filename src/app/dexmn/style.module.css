@@ -78,9 +78,6 @@
     color:#DDDDDD;
     text-align: center;
 }
- .figs::after {
-    background-image: url(../../../public/img/out.png);
-} 
 
 .Mouse{
     

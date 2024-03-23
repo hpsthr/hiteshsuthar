@@ -21,7 +21,7 @@ export default function Home() {
     <div className={classes.desktop}>
     <div className={classes.btnbox}> 
       <button><motion.span animate={{backgroundColor:["#FFFFFF", "#71FFA1", "#FFFFFF","#71FFA1" ]}} transition={{duration: 1, ease: "easeInOut", repeat: Infinity,}} className={classes.round}/>&nbsp;&nbsp;Available for work</button>
-      <button onClick={() =>  {navigator.clipboard.writeText('hpsthr@gmail.com'), sanm(!anm)}}>hpsthr@gmail.com &nbsp;&nbsp;<span>
+      <button onClick={() =>  {navigator.clipboard.writeText("hpsthr@gmail.com"), sanm(!anm)}}>hpsthr@gmail.com &nbsp;&nbsp;<span>
         <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M12.3529 0H4.94118C4.03529 0 3.29412 0.72 3.29412 1.6V11.2C3.29412 12.08 4.03529 12.8 4.94118 12.8H12.3529C13.2588 12.8 14 12.08 14 11.2V1.6C14 0.72 13.2588 0 12.3529 0ZM12.3529 11.2H4.94118V1.6H12.3529V11.2ZM0 10.4V8.8H1.64706V10.4H0ZM0 6H1.64706V7.6H0V6ZM5.76471 14.4H7.41176V16H5.76471V14.4ZM0 13.2V11.6H1.64706V13.2H0ZM1.64706 16C0.741176 16 0 15.28 0 14.4H1.64706V16ZM4.52941 16H2.88235V14.4H4.52941V16ZM8.64706 16V14.4H10.2941C10.2941 15.28 9.55294 16 8.64706 16ZM1.64706 3.2V4.8H0C0 3.92 0.741176 3.2 1.64706 3.2Z" fill="#D7D7D7"/>
 </svg>

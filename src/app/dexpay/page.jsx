@@ -16,7 +16,7 @@ export default function Qanda() {
     return (
         <main>
             <div className={classes.grids}>
-      <Image width={1920} height={2710} className={classes.gridimg} alt="Imgr" src="/img/grids.png" />
+                <Image width={1920} height={2710} className={classes.gridimg} alt="Imgr" src="/img/grids.png" />
          </div>
             <div className={classes.backbtn}>
             <a onMouseEnter={() => shov(!hov)} onMouseLeave={() => shov(!hov)} href="./"> <span>
