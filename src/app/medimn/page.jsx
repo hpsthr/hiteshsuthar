@@ -301,7 +301,7 @@ return (
             <div style={{ width: "100vw", height: "100vh", display:"flex", flexDirection: "column", alignItems: "center", justifyContent:"center"}}>
               <div style={{width:"35vw"}} className={classes.videobx3}>
                 <video  style={{position:"relative", }} muted playsInline preload="auto" loop width="1920" height="1080" autoPlay >
-                <source src="/img/medimob.mp4" type="video/mp4" />
+                <source src="http://dl.dropboxusercontent.com/scl/fi/5uujap1e2c3bgxf4jkhrf/medimob.mp4?rlkey=878ygk99ta6f4remg8vy5nnfl&dl=0" type="video/mp4" />
                 </video>
               </div>
             <div className={classes.firstGrid}>
