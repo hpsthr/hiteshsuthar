@@ -85,7 +85,7 @@ export default function Home() {
           title = "Gwal"
           info = "Redesigning Milk delivery cold chain for loose milk supplier"
           link = "./gwal"
-          img ="/img/gwal.png"
+          img ="http://dl.dropboxusercontent.com/scl/fi/ayn95w0ysxldb7d62083s/gwalcard.mp4?rlkey=9k0uogobt0dr9c5tkaicxdg8p&dl=0"
           param = ""
           read = "~15 min. Read"
           />
