@@ -59,7 +59,7 @@ return (
               </div>
             <div className={classes.videobx}>
             <video  style={{position:"relative", top:"-1vh"}} muted playsInline preload="auto" loop width="1920" height="1080" autoPlay >
-            <source src="http://dl.dropboxusercontent.com/scl/fi/wdi56i4mpgldkn7l9gjuc/mediv.mp4?rlkey=xr19bzhq7grodoz30ilzog1ua&dl=0" type="video/mp4" />
+            <source src="http://dl.dropboxusercontent.com/scl/fi/769kgfkxad813chqh52g8/mediv2.mp4?rlkey=kktn7ji4lrakj5q7xlnpubs45&dl=0" type="video/mp4" />
             </video>
             </div>
             <div style={{opacity:1}} className = {classes.Mouse}>
@@ -292,7 +292,7 @@ return (
             </div>
             <div style={{width:"35vw"}} className={classes.videobx2}>
             <video  style={{position:"relative", }} muted playsInline preload="auto" loop width="1920" height="1080" autoPlay >
-            <source src="http://dl.dropboxusercontent.com/scl/fi/b69kcvq9mliybi0xintux/medism.mp4?rlkey=nd4n4iboboawqmzx72s76zd9g&dl=0" type="video/mp4" />
+            <source src="http://dl.dropboxusercontent.com/scl/fi/r9pnyhgonbj03ioyvmg86/medism-video-converter.com.mp4?rlkey=dqxteksgqkog9w4d9grpmdn6y&dl=0" type="video/mp4" />
             </video>
             </div>
             </div>

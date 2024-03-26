@@ -69,7 +69,7 @@ export default function Home() {
           info = "Designing new website for fintech company"
           param = "Ux Research, Analysis, Conclusion, Final Design"
           link = "./dexmn"
-          img ="http://dl.dropboxusercontent.com/scl/fi/3oh49nkoxpedh81mg1yst/dexpaycard.mp4?rlkey=9cm357h7gpvj1vbpyogkh911y&dl=0"
+          img ="http://dl.dropboxusercontent.com/scl/fi/zvadygjzuzonmii9tl4ef/dexpaycard-video-converter.com.mp4?rlkey=zpw3w619nsfu5gbpdpr6xybzm&dl=0"
           read ="~5 min. Read"
           />
           {/* http://dl.dropboxusercontent.com */}
@@ -78,14 +78,14 @@ export default function Home() {
           info = "Medical Questions experience for diagnosis patients"
           param = "Research, Analysis, Ideation, Hi-fi Prototype, A/b Testing, User interview, Re-analysis, Re-Ideation, Hifi Prototype 2 "
           link = "./medimn"
-          img ="http://dl.dropboxusercontent.com/scl/fi/46wg5kvrljg0j9t2yt8zz/Medicard.mp4?rlkey=4htpyspt9oee3b6mwu6qi908v&dl=0"
+          img ="http://dl.dropboxusercontent.com/scl/fi/lp4kgw1anoldd29j9g3hz/Medicard-video-converter.com.mp4?rlkey=yrms4cy61r0hxg7aerylq8ki4&dl=0"
           read = "~7 min. Read"
           />
           <Card
           title = "Gwal"
           info = "Redesigning Milk delivery cold chain for loose milk supplier"
           link = "./gwal"
-          img ="http://dl.dropboxusercontent.com/scl/fi/ayn95w0ysxldb7d62083s/gwalcard.mp4?rlkey=9k0uogobt0dr9c5tkaicxdg8p&dl=0"
+          img ="http://dl.dropboxusercontent.com/scl/fi/egdkcgf3d4m1spo9o59fi/gwalcard-video-converter.com.mp4?rlkey=363p2unk5ch8itfe9di48cdvz&dl=0"
           param = ""
           read = "~15 min. Read"
           />
