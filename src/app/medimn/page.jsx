@@ -76,8 +76,9 @@ return (
             Why I am seeing only part of application? 
             </div>
             <div style={{position:"relative", top:"30vh", width:"35vw"}} className={classes.paragraphT}>
-            I redesigned the UX of a medical record management application. In this real-world case study, I emphasize that relying solely on intuition and product manager biases can lead to suboptimal user experiences. As a designer, prioritizing users over shortcuts ultimately brings greater value in the long run.           
+            I redesigned the UX of a medical record management application. In this real-world case study, I emphasize that relying solely on intuition & biases can lead to suboptimal user experiences. As a designer.          
             <br/>
+            Story
             <br/>
             After concluding the project and assuming universal satisfaction, I was surprised to find biases in the solution I designed. Recognizing this failure, I decided to rectify it by onboarding users for testing. Utilizing my spare time, I enlisted friends as testers, offering a free meal for their feedback. Surprisingly, they preferred the previous design with minimal changes. This prompted further analysis to understand the discrepancy.
             <br/>
